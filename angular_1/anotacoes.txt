@@ -1,0 +1,29 @@
+
+
+
+#ksh diretorio.sh
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:usr/local/bin/node:/usr/local/bin/npm:
+
+
+
+This package will install:
+	•	Node.js v8.10.0 to /usr/local/bin/node
+	•	npm v5.6.0 to /usr/local/bin/npm
+
+This package will install:
+	•	Node.js v8.10.0 to /usr/local/bin/node
+	•	npm v5.6.0 to /usr/local/bin/npm
+
+
+instalando o angular
+baixar o node em https://nodejs.org/en/
+executar os comandos: 
+sudo ln -s /usr/local/bin/node /usr/bin/node
+sudo ln -s /usr/local/lib/node /usr/lib/node
+sudo ln -s /usr/local/bin/npm /usr/bin/npm
+sudo ln -s /usr/local/bin/node-waf /usr/bin/node-waf
+
+npm install
+npm start
+
+http://localhost:3000
