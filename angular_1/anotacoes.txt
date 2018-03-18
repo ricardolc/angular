@@ -2,7 +2,9 @@
 
 
 #ksh diretorio.sh
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:usr/local/bin/node:/usr/local/bin/npm:
+
+
+export PATH=/usr/bin:/usr/local/bin:/bin:/usr/sbin:/sbin:usr/local/bin/node:/usr/local/bin/npm:/usr/local/lib/node:/usr/local/bin/node:/usr/local/bin/npm:/usr/local/bin/node-waf 
 
 
 
