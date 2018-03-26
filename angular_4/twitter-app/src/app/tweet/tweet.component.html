@@ -1,0 +1,33 @@
+<div class="ui items">
+
+  <!--
+    <div class="ui yellow message" *ngIf='!tweets'>
+        <i class="star icon"></i>
+        Sem tweets
+      </div>
+    -->
+<!--    <div class="item" *ngFor='let tweet of tweets'> --> 
+
+    <div class="item">
+      <a class="ui tiny image">
+        <img src="{{tweet.avatar}}">
+      </a>
+      <div class="content">
+        <a class="header">{{tweet.body}}</a>
+        <div class="description">
+          <p>{{tweet.body}} </p>
+          
+          <div class="ui labeled button" tabindex="0">
+              <div class="ui button" (click)='likeTweet(tweet)' id='{{tweet.user}}'>
+                <i class="heart icon"></i> Like
+              </div>
+              <a class="ui basic label">
+                {{tweet.likes.length}}
+              </a>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
