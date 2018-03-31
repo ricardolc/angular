@@ -1,0 +1,25 @@
+
+#criando um servidor para api rest rapidamente
+#https://github.com/typicode/json-server
+npm install -g json-server --verbose
+
+json-server --watch twitter_db.json
+
+  Resources
+  http://localhost:3000/posts
+  http://localhost:3000/comments
+  http://localhost:3000/profile
+
+  Home
+  http://localhost:3000
+
+ng generate service feed
+
+#geracao de apis expressjs.com   >> getting starter >> express generator
+npm install express-generator -g
+express twitter-api
+cd twitter-api
+npm install --verbose
+npm start
+
+https://enable-cors.org/server_expressjs.html
